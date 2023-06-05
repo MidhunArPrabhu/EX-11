@@ -5,13 +5,13 @@ To Study of Network simulator (NS).and Simulation of Congestion Control Algorith
 # NET WORK SIMULATOR (NS2)
 # Ns overview
 # Ns programming: A Quick start
-  Case study I: A simple Wireless network
-  Case study II: Create a new agent in Ns
+  1. Case study I: A simple Wireless network
+  2. Case study II: Create a new agent in Ns
 # Ns overview
-  Ns Status
-  Periodical release (ns-2.26, Feb 2003)
-  Platform support
-  FreeBSD, Linux, Solaris, Windows and Mac
+  1. Ns Status
+  2. Periodical release (ns-2.26, Feb 2003)
+  3. Platform support
+  4. FreeBSD, Linux, Solaris, Windows and Mac
 # Ns functionalities
 • Routing, Transportation, Traffic sources,Queuing disciplines, QoS • Wireless • Ad hoc routing, mobile IP, sensor-MAC • Tracing, visualization and various utilitie • NS(Network Simulators) Most of the commercial simulators are GUI driven, while some network simulators are CLI driven. The network model / configuration describes the state of the network (nodes,routers, switches, links) and the events (data transmissions, packet error etc.). An important output of simulations are the trace files. Trace files log every packet, every event that occurred in the simulation and are used for analysis. Network simulators can also provide other tools to facilitate visual analysis of trends and potential trouble spots. Most network simulators use discrete event simulation, in which a list of pending "events" is stored, and those events are processed in order, with some events triggering future events— such as the event of the arrival of a packet at one node triggering the event of the arrival of that packet at a downstream node. Simulation of networks is a very complex task. For example, if congestion is high, then estimation of the average occupancy is challenging because of high variance. To estimate the likelihood of a buffer overflow in a network, the time required for an accurate answer can be extremely large. Specialized techniques such as "control variates" and "importance sampling" have been developed to speed simulation.
 
