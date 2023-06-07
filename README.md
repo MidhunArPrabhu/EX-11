@@ -1,7 +1,6 @@
 # 19CN406-EX-11 SIMULATION OF ETHERNET USING OPNET SIMULATOR Assignment
 # AIM:
 To Study of Network simulator (NS).and Simulation of Congestion Control Algorithms using NS.
-
 # NET WORK SIMULATOR (NS2)
 # Ns overview
 # Ns programming: A Quick start
